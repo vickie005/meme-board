@@ -1,0 +1,52 @@
+:root {
+  --bg-dark: #121212;
+  --card-dark: #1e1e1e;
+  --accent: #00bfa6;
+  --text-light: #ffffff;
+
+  --bg-light: #f6f6f6;
+  --card-light: #ffffff;
+  --text-dark: #121212;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* dark mode */
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+.dark .navbar,
+.dark .footer,
+.dark .modal {
+  background-color: var(--card-dark);
+  color: var(--text-light);
+}
+
+.dark .meme-card {
+  background-color: var(--card-dark);
+  color: var(--text-light);
+}
+
+/* light mode */
+.light {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.light .navbar,
+.light .footer,
+.light .modal {
+  background-color: var(--card-light);
+  color: var(--text-dark);
+}
+
+.light .meme-card {
+  background-color: var(--card-light);
+  color: var(--text-dark);
+}
