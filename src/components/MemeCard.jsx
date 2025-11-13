@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { FaHeart } from "react-icons/fa";
 
 const MemeCard = ({ meme, onLike }) => {
